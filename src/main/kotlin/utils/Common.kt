@@ -6,3 +6,15 @@ fun printTestCase(vararg list: IntArray) {
         println("")
     }
 }
+
+fun printTestCase(vararg list: List<Int>) {
+    list.forEach {
+        println(it)
+    }
+}
+
+fun printTestCase(vararg list: Int) {
+    list.forEach {
+        println(it)
+    }
+}
