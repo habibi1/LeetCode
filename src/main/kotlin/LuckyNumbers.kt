@@ -12,7 +12,7 @@ fun runLuckyNumbers() {
 //Space complexity = O(1)
 fun luckyNumbers (matrix: Array<IntArray>): List<Int> {
     matrix.forEachIndexed { index, value ->
-        var indexMin: Int = 0
+        var indexMin = 0
         var valueMin: Int = Int.MAX_VALUE
         value.forEachIndexed { index1, value1 ->
             if (value1 < valueMin) {
