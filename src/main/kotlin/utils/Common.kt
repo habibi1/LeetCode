@@ -18,3 +18,9 @@ fun printTestCase(vararg list: Int) {
         println(it)
     }
 }
+
+fun printTestCase(vararg list: String) {
+    list.forEach {
+        println(it)
+    }
+}
